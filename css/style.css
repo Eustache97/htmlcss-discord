@@ -106,8 +106,6 @@ section{
 }
 .div-section{
     display: flex;
-    /* DEBUG */
-    /* /DEBUG */
 }
 .div-img{
     width: 60%;
@@ -158,10 +156,6 @@ footer{
 .foot-list{
     width: 70%;
     display: flex;
-    /* DEBUG */
-    height: 300px;
-    background-color: aqua;
-    /* /DEBUG */
 }
 .foot-text{
     width: 30%;
@@ -172,17 +166,29 @@ footer{
 }
 footer .ul-footlist{
     width: calc(100% / 4);
-/* DEBUG */
-border: 1px dashed white;
-/* /DEBUG */
+}
+ul>li{
+    color: #0c6886;
+}
+.ul-footlist ul{
+    list-style-type: none;
+    line-height: 1.5em;
+}
+.ul-footlist li a{
+    color: white;
 }
 footer .foot-end{
 display: flex;
-line-height: 40px;
+line-height: 30px;
 justify-content: space-between;
 margin-top: 20px;
-/* DEBUG */
-background-color: aquamarine;
-/* /DEBUG */
+
+}
+#logo-foot, #foot-btn{
+    vertical-align: middle;
+}
+#foot-btn{
+    background-color: #0c6886;
+    color: white;
 }
 /* /FOOTER */
