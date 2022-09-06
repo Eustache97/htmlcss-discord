@@ -8,7 +8,7 @@
 
 /* COMMON */
 html{
-    font-family: Whitney, Arial, Helvetica, sans-serif 
+    font-family: 'Whitney', sans-serif;
     font-size: 1rem;
 }
 .container{
@@ -40,22 +40,15 @@ p{
 .txtal{
     text-align: center;
 }
-/* DEBUG */
-.bdr{
-    border: 1px dashed black;
-/* /DEBUG */
-}
 /* /UTILITY */
 
 /* HEADER */
 header{
     width: 100%;
     background-image: url(../img/jumbo.png);
-    background-size: 100%;
-    background-color: blue;
-    /* DEBUG */
-   min-height: 400px;
-    /* /DEBUG */
+    background-size: cover;
+    background-position: center;
+    background-color:blue;
 }
 .div-nav{
     padding: 10px;
@@ -82,12 +75,8 @@ nav ul a{
     width: 50%;
     margin: 0 auto;
     padding: 3.5em 0;
-    /* DEBUG */
-    min-height: 170px;
-    /* /DEBUG */
 }
 .jumbotron{
-    height: 170px;
     padding: 2em;
     text-align: center;
     color: white;
@@ -129,7 +118,7 @@ section{
     width: 40%;
     margin: 0 auto;
     background-image: url(../img/stars.svg);
-    background-size: 100%;
+    background-size:100%;
     padding: 2em;
     padding-bottom: 0;
     background-position: top;
@@ -149,9 +138,6 @@ footer{
 .div-footer{
     display: flex;
     margin-bottom: 20px;
-    /* DEBUG */
-    min-height: 300px;
-    /* /DEBUG */
 }
 .foot-list{
     width: 70%;
@@ -159,15 +145,12 @@ footer{
 }
 .foot-text{
     width: 30%;
-    /* DEBUG */
-    height: 300px;
-    background-color:coral;
-    /* /DEBUG */
+    color: white;
 }
 footer .ul-footlist{
     width: calc(100% / 4);
 }
-ul>li{
+.ul-footlist ul>li{
     color: #0c6886;
 }
 .ul-footlist ul{
@@ -175,6 +158,7 @@ ul>li{
     line-height: 1.5em;
 }
 .ul-footlist li a{
+    font-size: .7em;
     color: white;
 }
 footer .foot-end{
@@ -190,5 +174,8 @@ margin-top: 20px;
 #foot-btn{
     background-color: #0c6886;
     color: white;
+}
+.foot-text img{
+    width: 1.5em;
 }
 /* /FOOTER */
