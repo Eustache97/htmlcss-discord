@@ -18,6 +18,9 @@ html{
 a{
     text-decoration: none;
 }  
+p{
+    line-height: 1.5em;
+}
 /* /COMMON */
 
 /* UTILITY */
@@ -33,6 +36,9 @@ a{
     border-radius: 20px;
     background-color: white;
     color: black;
+}
+.txtal{
+    text-align: center;
 }
 /* DEBUG */
 .bdr{
@@ -86,9 +92,6 @@ nav ul a{
     text-align: center;
     color: white;
 }
-.jumbotron p{
-    line-height: 1.5em;
-}
 #jumbobtn, #jumbobtn2{
     margin-top: 1em;
 }
@@ -114,13 +117,30 @@ section{
 }
 .div-text{
     width: 40%;
-    /* DEBUG */
-    background-color: pink;
-    /* /DEBUG */
+    padding: 1.5em;
 }
+
 /* section4*/
 .div-lastsection img{
     width: 100%;
+}
+.lastsection-text{
+    padding: 2em;
+}
+.lastsection-text-bg{
+    width: 40%;
+    margin: 0 auto;
+    background-image: url(../img/stars.svg);
+    background-size: 100%;
+    padding: 2em;
+    padding-bottom: 0;
+    background-position: top;
+    margin-bottom: 2em;
+}
+#lastsection-btn{
+    background-color: #0c6886;
+    color: white;
+    margin: 0 auto; 
 }
 /* /MAIN */
 /* FOOTER */
